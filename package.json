@@ -1,0 +1,40 @@
+{
+  "name": "@akumzy/bundler",
+  "version": "0.0.2",
+  "main": "./lib/index.js",
+  "bin": {
+    "bundle": "./bin/index.js"
+  },
+  "description": "This package bundles your product for production deployment based on your configuration and registered plugins",
+  "author": {
+    "email": "akumaisaacakuma@gmail.com",
+    "name": "Akuma Isaac Akuma"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -p ./tsconfig.json -w",
+    "b": "bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akumzy/dedupe-upload.git"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20"
+  },
+  "homepage": "https://github.com/Akumzy/dedupe-upload",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/lodash": "^4.14.160",
+    "@types/node": "^14.6.1"
+  }
+}

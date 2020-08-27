@@ -1,0 +1,10 @@
+{
+  "dist": "bundle",
+  "files": ["lib", "package.json"],
+  "ignore": [],
+  "plugins": {
+    "package.json": {
+      "handler": "./plugins/package-json"
+    }
+  }
+}
